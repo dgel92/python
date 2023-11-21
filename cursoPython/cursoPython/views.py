@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+DEBUG = False
 def saludo(request):
     return HttpResponse("hola Djando-coder")
 
